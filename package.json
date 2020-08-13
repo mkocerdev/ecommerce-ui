@@ -1,0 +1,44 @@
+{
+  "name": "ecommerceui",
+  "version": "1.0.0",
+  "description": "yoneosoft ecommerce",
+  "author": "mehmetkocerr",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore ."
+  },
+  "dependencies": {
+    "@nuxt/types": "^2.13.1",
+    "@nuxtjs/auth": "^4.9.1",
+    "@nuxtjs/axios": "^5.11.0",
+    "@nuxtjs/dotenv": "^1.4.1",
+    "@nuxtjs/pwa": "^3.0.0-0",
+    "element-ui": "^2.4.11",
+    "jsonwebtoken": "^8.5.1",
+    "nuxt": "^2.0.0",
+    "nuxt-i18n": "^6.12.1",
+    "nuxt-property-decorator": "^2.7.2",
+    "sass-loader": "^9.0.2",
+    "ts-node": "^8.10.2",
+    "vue-property-decorator": "^8.4.2",
+    "vuelidate": "^0.7.5"
+  },
+  "devDependencies": {
+    "@nuxt/typescript": "^2.8.1",
+    "@nuxt/typescript-build": "latest",
+    "@nuxtjs/eslint-config-typescript": "^1.0.0",
+    "@nuxtjs/eslint-module": "^1.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^6.1.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-nuxt": ">=0.4.2",
+    "eslint-plugin-prettier": "^3.1.2",
+    "node-sass": "^4.14.1",
+    "prettier": "^1.19.1",
+    "typescript": "^3.9.5"
+  }
+}

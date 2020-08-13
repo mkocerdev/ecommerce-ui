@@ -1,0 +1,15 @@
+{
+  "PRODUCTS": {
+    "ALL": "/product/all",
+    "PRODUCT": "/product/",
+    "DESCRIPTION": "/description",
+    "IMAGES": "/images",
+    "CATEGORIES": "/categories"
+  },
+  "CATEGORIES": {
+    "ALL": "/categories/all"
+  },
+  "BRANDS": {
+    "ALL": "/brands/all"
+  }
+}

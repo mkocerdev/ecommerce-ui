@@ -1,0 +1,19 @@
+{
+  "home":{
+    "title": "Welcome"
+  },
+  "sidebar":{
+    "home":"Home",
+    "products":{
+      "product":"Products",
+      "categories":"Categories",
+      "brands":"Brands",
+      "variants":"Variants"
+    },
+    "orders":{
+      "order":"Orders"
+    },
+    "settings":"Settings"
+  }
+}
+  

@@ -1,0 +1,18 @@
+{
+  "home": {
+    "title": "Hoşgeldin"
+  },
+  "sidebar": {
+    "home": "Anasayfa",
+    "products": {
+      "product": "Ürünler",
+      "categories": "Kategoriler",
+      "brands": "Markalar", 
+      "variants": "Varyantlar"
+    }, 
+    "orders": {
+      "order": "Siparişler"
+    },
+    "settings":"Ayarlar"
+  }
+}

@@ -1,0 +1,86 @@
+[
+  {
+    "name": "admin-brands",
+    "path": "/admin/brands",
+    "component": "D:\\\\GitHub\\\\ecommerce\\\\ecommerce-ui\\\\pages\\\\admin\\\\brands\\\\index.vue",
+    "chunkName": "pages/admin/brands/index",
+    "_name": "_5a79113e"
+  },
+  {
+    "name": "admin-categories",
+    "path": "/admin/categories",
+    "component": "D:\\\\GitHub\\\\ecommerce\\\\ecommerce-ui\\\\pages\\\\admin\\\\categories\\\\index.vue",
+    "chunkName": "pages/admin/categories/index",
+    "_name": "_db4f28de"
+  },
+  {
+    "name": "admin-home",
+    "path": "/admin/home",
+    "component": "D:\\\\GitHub\\\\ecommerce\\\\ecommerce-ui\\\\pages\\\\admin\\\\home\\\\index.vue",
+    "chunkName": "pages/admin/home/index",
+    "_name": "_4ea0232e"
+  },
+  {
+    "name": "admin-orders",
+    "path": "/admin/orders",
+    "component": "D:\\\\GitHub\\\\ecommerce\\\\ecommerce-ui\\\\pages\\\\admin\\\\orders\\\\index.vue",
+    "chunkName": "pages/admin/orders/index",
+    "_name": "_135440a8"
+  },
+  {
+    "name": "admin-products",
+    "path": "/admin/products",
+    "component": "D:\\\\GitHub\\\\ecommerce\\\\ecommerce-ui\\\\pages\\\\admin\\\\products\\\\index.vue",
+    "chunkName": "pages/admin/products/index",
+    "_name": "_0a188fee"
+  },
+  {
+    "name": "admin-settings",
+    "path": "/admin/settings",
+    "component": "D:\\\\GitHub\\\\ecommerce\\\\ecommerce-ui\\\\pages\\\\admin\\\\settings\\\\index.vue",
+    "chunkName": "pages/admin/settings/index",
+    "_name": "_7690efea"
+  },
+  {
+    "name": "admin-variants",
+    "path": "/admin/variants",
+    "component": "D:\\\\GitHub\\\\ecommerce\\\\ecommerce-ui\\\\pages\\\\admin\\\\variants\\\\index.vue",
+    "chunkName": "pages/admin/variants/index",
+    "_name": "_6f076ac2"
+  },
+  {
+    "name": "admin-user-login",
+    "path": "/admin/user/login",
+    "component": "D:\\\\GitHub\\\\ecommerce\\\\ecommerce-ui\\\\pages\\\\admin\\\\user\\\\login.vue",
+    "chunkName": "pages/admin/user/login",
+    "_name": "_1fd083d9"
+  },
+  {
+    "name": "admin-user-register",
+    "path": "/admin/user/register",
+    "component": "D:\\\\GitHub\\\\ecommerce\\\\ecommerce-ui\\\\pages\\\\admin\\\\user\\\\register.vue",
+    "chunkName": "pages/admin/user/register",
+    "_name": "_08705a63"
+  },
+  {
+    "name": "admin-categories-id",
+    "path": "/admin/categories/:id",
+    "component": "D:\\\\GitHub\\\\ecommerce\\\\ecommerce-ui\\\\pages\\\\admin\\\\categories\\\\_id.vue",
+    "chunkName": "pages/admin/categories/_id",
+    "_name": "_6d03c38e"
+  },
+  {
+    "name": "admin-products-id",
+    "path": "/admin/products/:id",
+    "component": "D:\\\\GitHub\\\\ecommerce\\\\ecommerce-ui\\\\pages\\\\admin\\\\products\\\\_id.vue",
+    "chunkName": "pages/admin/products/_id",
+    "_name": "_821bae9e"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "D:\\\\GitHub\\\\ecommerce\\\\ecommerce-ui\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_765ad7b8"
+  }
+]

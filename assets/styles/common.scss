@@ -1,0 +1,59 @@
+html,
+body {
+  font-family: $font;
+}
+.rotate-45 {
+  transform: rotate(45deg);
+}
+.el-dropdown-menu__item {
+  padding: 5px 20px;
+}
+.el-table {
+  border-radius: 5px;
+  border: 1px solid #ebeef5;
+}
+.el-table th {
+  background: #fbfbfe;
+}
+.el-table th > .cell {
+  color: #b9bac1;
+}
+.el-tag {
+  border: 0px;
+}
+.el-button {
+  font-size: 13px;
+}
+.el-menu {
+  background: none;
+}
+.el-submenu__title:hover,
+.el-menu-item:focus,
+.el-menu-item:hover {
+  background: none !important;
+}
+.sidebar .sidebar-nav-item .el-menu .sidebar-nav-item,
+.el-menu-item,
+.el-submenu__title {
+  height: 45px;
+  line-height: 45px;
+  padding-left: 10px !important;
+}
+.el-table,
+.el-table td,
+.el-table th.is-leaf {
+  border-color: darken($app-color, 7%);
+}
+.el-table th,
+.el-table tr,
+.el-table--border::after,
+.el-table--group::after,
+.el-table::before {
+  background-color: $app-color;
+}
+.el-table-column--selection .cell {
+  text-align: center;
+}
+.el-divider--horizontal {
+  clear: both;
+}
