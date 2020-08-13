@@ -1,3 +1,4 @@
+const development = process.env.NODE_ENV !== 'production'
 export default {
   mode: 'universal',
   /*
@@ -61,7 +62,9 @@ export default {
    */
 
   axios: {
-    baseURL: 'http://localhost:5000/api',
+    baseURL: development
+      ? 'http://localhost:5000/api'
+      : 'https://yone-ecommerce-api.herokuapp.com/api',
   },
   /* 
     Nuxt-auth
