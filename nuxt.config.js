@@ -1,4 +1,3 @@
-const development = process.env.NODE_ENV !== 'production'
 export default {
   mode: 'universal',
   /*
@@ -62,9 +61,7 @@ export default {
    */
 
   axios: {
-    baseURL: development
-      ? 'http://127.0.0.1:3000'
-      : 'https://traveappp.herokuapp.com',
+    baseURL: 'http://localhost:5000/api',
   },
   /* 
     Nuxt-auth
