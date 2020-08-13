@@ -1,3 +1,4 @@
+const development = process.env.NODE_ENV !== 'production'
 export default {
   mode: 'universal',
   /*
@@ -61,7 +62,9 @@ export default {
    */
 
   axios: {
-    baseURL: 'http://localhost:5000/api',
+    baseURL: development
+      ? 'http://127.0.0.1:3000'
+      : 'https://traveappp.herokuapp.com',
   },
   /* 
     Nuxt-auth
@@ -108,7 +111,7 @@ export default {
    */
   build: {
     vendor: ['vue-i18n'],
-    //extractCSS: true,
+    // extractCSS: true,
     transpile: [/^element-ui/],
     /*
      ** You can extend webpack config here
