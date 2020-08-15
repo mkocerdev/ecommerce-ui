@@ -1,6 +1,7 @@
 const development = process.env.NODE_ENV !== 'production'
 export default {
   mode: 'universal',
+  dev: process.env.NODE_ENV !== 'production',
   /*
    ** Headers of the page
    */
