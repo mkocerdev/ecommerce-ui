@@ -1,7 +1,8 @@
+const env = require('dotenv').config()
 const development = process.env.NODE_ENV !== 'production'
 export default {
   mode: 'universal',
-  dev: process.env.NODE_ENV !== 'production',
+  env: env.parsed,
   /*
    ** Headers of the page
    */
