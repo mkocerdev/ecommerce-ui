@@ -1,8 +1,5 @@
-const env = require('dotenv').config()
-const development = process.env.NODE_ENV !== 'production'
 export default {
   mode: 'universal',
-  env: env.parsed,
   /*
    ** Headers of the page
    */
@@ -64,9 +61,7 @@ export default {
    */
 
   axios: {
-    baseURL: development
-      ? 'http://localhost:5000/api'
-      : 'https://yone-ecommerce-api.herokuapp.com/api',
+    baseURL: process.env.API_URL || 'http://localhost:5000/api',
   },
   /* 
     Nuxt-auth
